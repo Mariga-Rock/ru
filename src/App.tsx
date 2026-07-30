@@ -42,7 +42,7 @@ type CaseStudy = {
 const caseStudies: CaseStudy[] = [
   {
     id: 'nsd',
-    industry: 'Fintech',
+    industry: 'Финтех',
     icon: 'briefcase',
     title: 'Национальный Расчетный Депозитарий',
     location: 'Москва',
