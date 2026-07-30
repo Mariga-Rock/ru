@@ -211,7 +211,7 @@ function App() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             <button onClick={goHome} className="text-left text-xl font-bold text-white">
               Мария Гурьянова
-              <span className="block text-rose-500 text-sm font-normal">Дизайн‑директор</span>
+              <span className="block text-rose-500 text-sm font-normal">Дизайн‑лид</span>
             </button>
 
             {/* Desktop Navigation */}
@@ -290,12 +290,12 @@ function App() {
                 Мария Гурьянова
               </h1>
               <p className="text-xl lg:text-2xl text-gray-600 mb-6 leading-relaxed max-w-3xl font-bold animate-on-scroll">
-                Внештатный дизайн‑директор для корпоративных B2B‑продуктов
+                Дизайн‑лид для корпоративных B2B‑продуктов
               </p>
               <p className="text-xl lg:text-2xl text-gray-600 mb-6 leading-relaxed max-w-3xl animate-on-scroll">
                 Дизайн‑системы, UX‑стратегия и менторство команд для масштабирования вашего продукта.
                 <br />
-                Опыт работы с крупными заказчиками — теперь для российского бизнеса.
+                Опыт работы с крупными заказчиками — теперь для вашего бизнеса.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 animate-on-scroll">
                 <a
@@ -331,13 +331,13 @@ function App() {
               </h3>
               <div className="space-y-4 text-gray-600 text-lg leading-relaxed animate-on-scroll">
                 <p>
-                  Корпоративные дизайн‑системы и UX‑стратегия — я помогаю масштабировать ваш продукт и команды быстрее, с меньшим количеством итераций. Без обязательств на полную ставку.
+                  Корпоративные дизайн‑системы и UX‑стратегия. Я помогаю масштабировать ваш продукт и команды быстрее, с меньшим количеством итераций. Гибкая система сотрудничества, без обязательств на полную ставку.
                 </p>
                 <p>
-                  После 10+ лет проектирования сложных B2B‑систем для крупных зарубежных компаний, я теперь сосредоточена на поддержке российских стартапов и растущих бизнесов в создании дизайн‑инфраструктуры мирового уровня: дизайн‑систем, библиотек компонентов и команд, способных это управлять.
+                  После 13+ лет проектирования сложных B2B‑систем для крупных зарубежных и российских компаний, я теперь сосредоточена на поддержке российских стартапов и растущих бизнесов в создании дизайн‑инфраструктуры мирового уровня: дизайн‑систем, библиотек компонентов и команд профессионалов, способных справляться с растущими вызовами.
                 </p>
                 <p>
-                  Я соединяю дизайн и разработку, обучаю команды создавать лучшие продукты быстрее. Мой подход — системный, ориентированный на бизнес и адаптированный к уникальным вызовам быстрорастущих российских компаний.
+                  Я соединяю дизайн и разработку, обучаю команды создавать продукты, сочетая качество и скорость. Системный подход, ориентированный на бизнес и адаптированный к уникальным вызовам российского рынка.
                 </p>
               </div>
             </div>
@@ -368,7 +368,7 @@ function App() {
           <div className="text-center max-w-3xl mx-auto mb-10">
             <h2 className="text-sm font-semibold text-rose-600 uppercase tracking-wide mb-3 animate-on-scroll">Услуги</h2>
             <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 animate-on-scroll">Как я могу помочь вашему бизнесу</h3>
-            <p className="text-gray-600 text-lg animate-on-scroll">Стратегическое дизайн‑лидерство под ваш этап и потребности</p>
+            <p className="text-gray-600 text-lg animate-on-scroll">Стратегическое дизайн‑лидерство под ваши потребности</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -379,16 +379,16 @@ function App() {
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-3">Дизайн‑система как сервис</h4>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Аудит, создание и внедрение масштабируемой дизайн‑системы с кодом. Установите единый язык дизайна для всей линейки продуктов.
+                Аудит, создание и внедрение масштабируемой дизайн‑системы. Плотное взаимодействие с разработкой. Установите единый язык дизайна для всей линейки продуктов.
               </p>
               <div className="mt-auto">
                 <p className="text-sm font-semibold text-gray-900 mb-3">Что вы получаете</p>
                 <ul className="space-y-2">
                   {[
                     'Полный аудит текущего UI и использования компонентов',
-                    'Токен‑ориентированная дизайн‑система в Figma + компоненты в коде',
+                    'Токен‑ориентированная дизайн‑система в Figma',
                     'Документированные гайдлайны для дизайнеров и разработчиков',
-                    'Сессии онбординга для самостоятельной работы команды',
+                    'Сессии онбординга для слаженной работы команды',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
                       <Check className="w-4 h-4 text-rose-600 mt-0.5 flex-shrink-0" />
@@ -406,13 +406,13 @@ function App() {
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-3">Внештатный дизайн‑директор</h4>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Дизайн‑лидерство уровня enterprise на частичной занятости. Я вхожу в роль вашего дизайн‑директора — провожу дизайн‑ревью, менторю команду, формирую продуктовый дизайн. Все это за долю стоимости полной ставки.
+                Дизайн‑лидерство уровня enterprise. Я вхожу в роль вашего дизайн‑директора — провожу дизайн‑ревью, менторю команду, формирую продуктовый дизайн. Все это без необходимости оформления в штат.
               </p>
               <div className="mt-auto">
                 <p className="text-sm font-semibold text-gray-900 mb-3">Что вы получаете</p>
                 <ul className="space-y-2">
                   {[
-                    'Еженедельные дизайн‑ревью и направление для команды',
+                    'Еженедельные дизайн‑ревью и развитие интерфейса продукта',
                     'Менторство и планы роста для дизайнеров',
                     'Кросс-функциональное согласование с продуктом и разработкой',
                     'Рекомендации по найму и настройка дизайн‑процессов',
@@ -433,16 +433,15 @@ function App() {
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-3">UX‑аудит и дорожная карта</h4>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Глубокий анализ вашего B2B‑продукта. Я предоставляю приоритизированную дорожную карту для повышения удовлетворённости пользователей, снижения оттока и роста конверсии. Вы получаете стратегический план с быстрыми победами и долгосрочными улучшениями.
+                Глубокий анализ вашего продукта. Я предоставляю приоритизированную дорожную карту для повышения удовлетворённости пользователей, снижения оттока, роста конверсии уменьшения количества ошибок при совершении олпераций. Вы получаете внятный план как на краткосрочную, так и на долгосрочную перспективу.
               </p>
               <div className="mt-auto">
                 <p className="text-sm font-semibold text-gray-900 mb-3">Что вы получаете</p>
                 <ul className="space-y-2">
                   {[
-                    'Эвристическая оценка ключевых пользовательских сценариев',
-                    'Приоритизированный список быстрых побед и долгосрочных инициатив',
+                    'Эвристическая оценка ключевых и вспомогательных пользовательских сценариев',
                     'Дорожная карта, согласованная с бизнес‑целями',
-                    'Презентация для стейкхолдеров с чёткими следующими шагами',
+                    'Презентация для стейкхолдеров',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
                       <Check className="w-4 h-4 text-rose-600 mt-0.5 flex-shrink-0" />
@@ -462,7 +461,7 @@ function App() {
           <div className="text-center max-w-3xl mx-auto mb-10">
             <h2 className="text-sm font-semibold text-rose-400 uppercase tracking-wide mb-3 animate-on-scroll">Кейсы</h2>
             <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4 animate-on-scroll">Доказанные результаты в разных отраслях</h3>
-            <p className="text-gray-300 text-lg animate-on-scroll">Избранные проекты для клиентов из финтеха, биотеха и SaaS</p>
+            <p className="text-gray-300 text-lg animate-on-scroll">Избранные проекты</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -515,20 +514,9 @@ function App() {
                 Готовы вывести дизайн вашего продукта на новый уровень? Закажите бесплатную консультацию, чтобы обсудить ваши задачи и понять, подходим ли мы друг другу.
               </p>
 
-              <div className="space-y-4">
-                <a
-                  href="https://www.linkedin.com/in/maria-guryanova-24260337/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
-                >
-                  <Linkedin className="w-5 h-5 text-rose-400" />
-                  <span>Связаться в LinkedIn</span>
-                </a>
-              </div>
 
               <div className="mt-10 pt-8 border-t border-gray-700">
-                <p className="text-sm text-gray-400">Работаю со стартапами и растущими компаниями по всей России.</p>
+                <p className="text-sm text-gray-400">Работаю с компаниями по всей России.</p>
               </div>
             </div>
 
@@ -627,7 +615,7 @@ function CaseStudiesPage({ onBack }: { onBack: () => void }) {
           <p className="text-rose-400 font-semibold tracking-wide uppercase mb-2 animate-on-scroll">Кейсы</p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 animate-on-scroll">Доказанные результаты в разных отраслях</h1>
           <p className="text-xl text-gray-300 max-w-3xl animate-on-scroll">
-            Избранные проекты для клиентов из финтеха, биотеха и SaaS — с описанием задачи, подхода и измеримых результатов.
+            Избранные проекты для клиентов из финтеха, биотеха и SaaS с описанием задачи, подхода и измеримых результатов.
           </p>
         </div>
       </section>
