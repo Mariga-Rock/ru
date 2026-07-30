@@ -314,7 +314,7 @@ function App() {
               </div>
             </div>
             <div className="lg:col-span-3 mt-3 animate-on-scroll">
-              <img src={profilePic} alt="Мария Гурьянова, дизайн-директор" className="w-full h-[300px] object-cover" />
+              <img src={profilePic} alt="Мария Гурьянова, дизайн-лид" className="w-full h-[300px] object-cover" />
             </div>
           </div>
         </div>
