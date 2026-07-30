@@ -65,12 +65,12 @@ const caseStudies: CaseStudy[] = [
   },
   {
     id: 'bostongene',
-    industry: 'Biotech',
+    industry: 'Биотех',
     icon: 'target',
     title: 'BostonGene',
     location: 'Москва',
-    challenge:
-      'Design the product UI and UX from scratch for a biotech startup. The platform needed to present complex genomic and clinical data to two very different user roles without overwhelming either.',
+    Задача:
+      'Проектирование UI/UX продукта с нуля для биотех-стартапа. Платформа требовала отображения сложных геномных и клинических данных для двух разных типов пользователей без создания информационной перегрузки.',
     approach:
       'Designed the information architecture, data dashboards, and complex controls. Created customer journey maps for two user roles (researchers and clinicians), validated flows with stakeholders, and established a systematic visual language that could grow with the product.',
     result:
