@@ -579,7 +579,7 @@ function App() {
           </div>
 
           <div className="mt-10 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
-            <p>&copy; 2026 Мария Гурьянова — Дизайн-директор. Все права защищены.</p>
+            <p>&copy; 2026 Мария Гурьянова — Дизайн-лид. Все права защищены.</p>
           </div>
         </div>
       </footer>
