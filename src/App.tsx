@@ -46,16 +46,16 @@ const caseStudies: CaseStudy[] = [
     icon: 'briefcase',
     title: 'Национальный Расчетный Депозитарий',
     location: 'Москва',
-    challenge:
-      'Создать новый пользовательский интерфейс (UI) и пользовательский опыт (UX) для платформы государственного депозитария. Устаревший интерфейс не позволял масштабироваться и вынуждал операторов переключаться между пятью разрозненными системами.',
-    approach:
-      'Разработала модульную дизайн-систему с компонентами для визуализации данных в реальном времени. Объединила пять устаревших систем в единую UX-среду с общей библиотекой компонентов, единообразными паттернами взаимодействия и масштабируемой токен-архитектурой. Провела совместные воркшопы с дизайнерами и разработчиками для согласования целевой архитектуры со стейкхолдерами.',
+    Задача:
+      'Создать новый пользовательский интерфейс (UI) и пользовательский опыт (UX) для платформы государственного депозитария. Устаревший интерфейс не позволял масштабироваться, выглядел устаревшим и вынуждал операторов переключаться между пятью разрозненными системами для выполнения даже одной рабочей задачи..',
+    Подход:
+      'Разработала модульную дизайн-систему с компонентами для визуализации данных в реальном времени. Объединила пять устаревших систем в единую UX-среду с общей библиотекой компонентов, единообразными паттернами взаимодействия и масштабируемой токен-архитектурой. Провела совместные воркшопы с дизайнерами и разработчиками для согласования целевой архитектуры со стейкхолдерами..',
     Результат:
       'Новая зонтичная дизайн-система, высокая масштабируемость, создание единого стиля для пяти программных продуктов.',
     details: {
       scope: 'Полный цикл редизайна UX/UI продукта + дизайн-система',
       duration: '48 месяцев',
-      team: '1 дизайн-лид, 3 дизайнера, 3 фронтенд-инженера',
+      teams: '1 дизайн-лид, 3 дизайнера, 3 фронтенд-инженера',
       outcomes: [
         'Пять устаревших систем объединены в единую UX-систему',
         'Библиотека переиспользуемых компонентов, внедрённая во всей линейке продуктов',
@@ -69,8 +69,8 @@ const caseStudies: CaseStudy[] = [
     icon: 'target',
     title: 'BostonGene',
     location: 'Москва',
-    challenge:
-      'Design the product UI and UX from scratch for a biotech startup. The platform needed to present complex genomic and clinical data to two very different user roles without overwhelming either.',
+    Задача:
+      'Проектирование UI/UX продукта с нуля для биотех-стартапа. Платформа требовала отображения сложных геномных и клинических данных для двух разных типов пользователей без создания информационной перегрузки.',
     approach:
       'Designed the information architecture, data dashboards, and complex controls. Created customer journey maps for two user roles (researchers and clinicians), validated flows with stakeholders, and established a systematic visual language that could grow with the product.',
     result:
@@ -78,7 +78,7 @@ const caseStudies: CaseStudy[] = [
     details: {
       scope: 'Product UX/UI from scratch + design language',
       duration: '9 months',
-      team: '3 дизайнера, 4 engineers',
+      team: '3 designers, 4 engineers',
       outcomes: [
         'Role-based dashboards for researchers and clinicians',
         'Clear information architecture for complex genomic data',
@@ -92,7 +92,7 @@ const caseStudies: CaseStudy[] = [
     industry: 'SaaS',
     icon: 'trending',
     title: 'B2B Analytics Dashboard',
-    location: 'NetCracker',
+    location: 'NetCracker, NEC Corporation',
     challenge:
       'Redesign the UI of a mature B2B analytics dashboard while preserving every legacy function. The product had years of accumulated features and a user base that depended on exact workflows.',
     approach:
@@ -102,7 +102,7 @@ const caseStudies: CaseStudy[] = [
     details: {
       scope: 'Full UX investigation + UI redesign',
       duration: '11 months',
-      team: '4 designers, 6 engineers',
+      team: '4 дизайнера, 6 engineers',
       outcomes: [
         'Modern UI with all legacy functions preserved',
         'Documented map of every existing feature',
@@ -223,7 +223,7 @@ function App() {
                 Services
               </button>
               <button onClick={goToCaseStudies} className="text-gray-300 hover:text-white transition-colors font-medium">
-                Кейсы
+                Case Studies
               </button>
               <button onClick={handleContactClick} className="text-gray-300 hover:text-white transition-colors font-medium">
                 Contact
