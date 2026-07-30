@@ -78,7 +78,7 @@ const caseStudies: CaseStudy[] = [
     details: {
       scope: 'Product UX/UI from scratch + design language',
       duration: '9 months',
-      team: '3 designers, 4 engineers',
+      team: '3 дизайнера, 4 engineers',
       outcomes: [
         'Role-based dashboards for researchers and clinicians',
         'Clear information architecture for complex genomic data',
@@ -92,7 +92,7 @@ const caseStudies: CaseStudy[] = [
     industry: 'SaaS',
     icon: 'trending',
     title: 'B2B Analytics Dashboard',
-    location: 'NetCracker, NEC Corporation',
+    location: 'NetCracker',
     challenge:
       'Redesign the UI of a mature B2B analytics dashboard while preserving every legacy function. The product had years of accumulated features and a user base that depended on exact workflows.',
     approach:
