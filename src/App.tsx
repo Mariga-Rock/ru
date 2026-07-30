@@ -44,21 +44,21 @@ const caseStudies: CaseStudy[] = [
     id: 'nsd',
     industry: 'Финтех',
     icon: 'briefcase',
-    title: 'Национальный Расчетный Депозитарий',
-    location: 'Москва',
-    Задача:
-      'Создать новый пользовательский интерфейс (UI) и пользовательский опыт (UX) для платформы государственного депозитария. Устаревший интерфейс не позволял масштабироваться, выглядел устаревшим и вынуждал операторов переключаться между пятью разрозненными системами для выполнения даже одной рабочей задачи..',
-    Подход:
-      'Разработала модульную дизайн-систему с компонентами для визуализации данных в реальном времени. Объединила пять устаревших систем в единую UX-среду с общей библиотекой компонентов, единообразными паттернами взаимодействия и масштабируемой токен-архитектурой. Провела совместные воркшопы с дизайнерами и разработчиками для согласования целевой архитектуры со стейкхолдерами..',
-    Результат:
+    title: 'Национальный расчетный депозитарий',
+    location: 'Москва, Россия',
+    challenge:
+      'Создать новый пользовательский интерфейс (UI) и пользовательский опыт (UX) для платформы государственного депозитария. Устаревший интерфейс не позволял масштабироваться, выглядел устаревшим и вынуждал операторов переключаться между пятью разрозненными системами для выполнения даже одной рабочей задачи.',
+    approach:
+      'Разработала модульную дизайн-систему с компонентами для визуализации данных в реальном времени. Объединила пять устаревших систем в единую UX-среду с общей библиотекой компонентов, единообразными паттернами взаимодействия и масштабируемой токен-архитектурой. Провела совместные воркшопы с дизайнерами и разработчиками для согласования целевой архитектуры со стейкхолдерами.',
+    result:
       'Новая зонтичная дизайн-система, высокая масштабируемость, создание единого стиля для пяти программных продуктов.',
     details: {
       scope: 'Полный цикл редизайна UX/UI продукта + дизайн-система',
       duration: '48 месяцев',
-      teams: '1 дизайн-лид, 3 дизайнера, 3 фронтенд-инженера',
+      team: '1 дизайн-лид, 3 дизайнера, 3 фронтенд-инженера',
       outcomes: [
-        'Пять устаревших систем объединены в единую UX-систему',
-        'Библиотека переиспользуемых компонентов, внедрённая во всей линейке продуктов',
+        'Пять устаревших систем объединены в единую UX-среду',
+        'Библиотека переиспользуемых компонентов внедрена во всей линейке продуктов',
         'Онбординг новых операторов стал быстрее',
       ],
     },
@@ -68,22 +68,22 @@ const caseStudies: CaseStudy[] = [
     industry: 'Биотех',
     icon: 'target',
     title: 'BostonGene',
-    location: 'Москва',
-    Задача:
-      'Проектирование UI/UX продукта с нуля для биотех-стартапа. Платформа требовала отображения сложных геномных и клинических данных для двух разных типов пользователей без создания информационной перегрузки.',
+    location: 'Москва, Россия',
+    challenge:
+      'Спроектировать UI и UX продукта с нуля для биотех-стартапа. Платформа должна была представлять сложные геномные и клинические данные двум принципиально разным ролям пользователей, не перегружая ни одну из них.',
     approach:
-      'Designed the information architecture, data dashboards, and complex controls. Created customer journey maps for two user roles (researchers and clinicians), validated flows with stakeholders, and established a systematic visual language that could grow with the product.',
+      'Создала информационную архитектуру, дашборды для данных и сложные элементы управления. Разработала карты пользовательских путей для двух ролей (исследователи и врачи), утвердила потоки работы со стейкхолдерами и заложила системный визуальный язык, способный расти вместе с продуктом.',
     result:
-      'The startup now has a light, clear, and systematic design that scales. Both user roles get role-tailored dashboards, and the team can ship new features against a stable design foundation.',
+      'Стартап получил лёгкий, прозрачный и системный дизайн, который масштабируется. Для каждой роли созданы индивидуальные дашборды, команда может выпускать новые функции, опираясь на стабильную дизайн‑основу.',
     details: {
       scope: 'Разработка UX/UI продукта с нуля и создание дизайн-языка',
       duration: '14 месяцев',
-      team: '3 designers, 4 engineers',
+      team: '3 дизайнера, 4 инженера',
       outcomes: [
-        'Role-based dashboards for researchers and clinicians',
-        'Clear information architecture for complex genomic data',
-        'Systematic, scalable visual language',
-        'Faster feature delivery post-launch',
+        'Ролевые дашборды для исследователей и врачей',
+        'Чёткая информационная архитектура для сложных данных анализа ДНК',
+        'Системный и масштабируемый визуальный язык',
+        'Ускоренный выпуск новых функций после запуска',
       ],
     },
   },
@@ -91,23 +91,23 @@ const caseStudies: CaseStudy[] = [
     id: 'netcracker',
     industry: 'SaaS',
     icon: 'trending',
-    title: 'B2B Analytics Dashboard',
+    title: 'B2B аналитическая панель',
     location: 'NetCracker, NEC Corporation',
     challenge:
-      'Redesign the UI of a mature B2B analytics dashboard while preserving every legacy function. The product had years of accumulated features and a user base that depended on exact workflows.',
+      'Модернизировать UI зрелой B2B аналитической панели, сохранив все существующие функции. Продукт накопил множество функций, а пользователи привыкли к определённым рабочим процессам.',
     approach:
-      'Ran a full investigation of the product and user experience, mapping every existing function before any visual change. Then executed a full redesign that modernized the visual layer and interaction model without removing capability.',
+      'Провела полное исследование продукта и пользовательского опыта, составила карту всех существующих функций до внесения визуальных изменений. Затем выполнила полноценный редизайн, обновив визуальный слой и модель взаимодействия без потери функциональности.',
     result:
-      'A new version of the product that looks and feels modern, keeps all legacy functions intact, and is significantly easier for new users to learn.',
+      'Новая версия продукта выглядит современно, сохраняет все унаследованные функции и стала значительно проще для освоения новыми пользователями.',
     details: {
-      scope: 'Full UX investigation + UI redesign',
-      duration: '11 months',
-      team: '4 дизайнера, 6 engineers',
+      scope: 'Полное UX-исследование + UI-редизайн',
+      duration: '11 месяцев',
+      team: '4 дизайнера, 6 инженеров',
       outcomes: [
-        'Modern UI with all legacy functions preserved',
-        'Documented map of every existing feature',
-        'Improved learnability for new users',
-        'Foundation for future module expansion',
+        'Современный UI с сохранением всех существующих функций',
+        'Документированная карта всех функций',
+        'Улучшенная обучаемость для новых пользователей',
+        'Фундамент для будущего расширения модулей',
       ],
     },
   },
@@ -192,10 +192,10 @@ function App() {
         setIsSubmitted(true);
         setFormData({ name: '', email: '', message: '' });
       } else {
-        alert('Sending error. Please try again.');
+        alert('Ошибка отправки. Пожалуйста, попробуйте снова.');
       }
     } catch (error) {
-      alert('Connection error. Check your internet connection.');
+      alert('Ошибка соединения. Проверьте интернет.');
     }
   };
 
@@ -210,23 +210,23 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             <button onClick={goHome} className="text-left text-xl font-bold text-white">
-              Maria Guryanova
-              <span className="block text-rose-500 text-sm font-small">Design Director</span>
+              Мария Гурьянова
+              <span className="block text-rose-500 text-sm font-normal">Дизайн‑директор</span>
             </button>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               <button onClick={goToAbout} className="text-gray-300 hover:text-white transition-colors font-medium">
-                About
+                Обо мне
               </button>
               <button onClick={goToServices} className="text-gray-300 hover:text-white transition-colors font-medium">
-                Services
+                Услуги
               </button>
               <button onClick={goToCaseStudies} className="text-gray-300 hover:text-white transition-colors font-medium">
-                Case Studies
+                Кейсы
               </button>
               <button onClick={handleContactClick} className="text-gray-300 hover:text-white transition-colors font-medium">
-                Contact
+                Контакты
               </button>
             </div>
 
@@ -246,7 +246,7 @@ function App() {
                 }}
                 className="block w-full text-left py-2 text-gray-300 hover:text-white font-medium"
               >
-                About
+                Обо мне
               </button>
               <button
                 onClick={() => {
@@ -255,7 +255,7 @@ function App() {
                 }}
                 className="block w-full text-left py-2 text-gray-300 hover:text-white font-medium"
               >
-                Services
+                Услуги
               </button>
               <button
                 onClick={() => {
@@ -264,7 +264,7 @@ function App() {
                 }}
                 className="block w-full text-left py-2 text-gray-300 hover:text-white font-medium"
               >
-                Case Studies
+                Кейсы
               </button>
               <button
                 onClick={() => {
@@ -273,7 +273,7 @@ function App() {
                 }}
                 className="block w-full text-left py-2 text-gray-300 hover:text-white font-medium"
               >
-                Contact
+                Контакты
               </button>
             </div>
           )}
@@ -285,36 +285,36 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 sm:px-4 lg:px-8 w-full">
           <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
             <div className="max-w-4xl lg:col-span-9">
-              <p className="text-rose-600 font-semibold tracking-wide uppercase mb-2 animate-on-scroll">US & APAC</p>
+              <p className="text-rose-600 font-semibold tracking-wide uppercase mb-2 animate-on-scroll">Экспертиза в крупных проектах</p>
               <h1 className="text-4xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-3 animate-on-scroll">
-                Maria Guryanova
+                Мария Гурьянова
               </h1>
               <p className="text-xl lg:text-2xl text-gray-600 mb-6 leading-relaxed max-w-3xl font-bold animate-on-scroll">
-                Fractional Design Director for Enterprise B2B Products
+                Внештатный дизайн‑директор для корпоративных B2B‑продуктов
               </p>
               <p className="text-xl lg:text-2xl text-gray-600 mb-6 leading-relaxed max-w-3xl animate-on-scroll">
-                Design systems, UX strategy, and team mentorship to scale your product without hiring full-time.
+                Дизайн‑системы, UX‑стратегия и менторство команд для масштабирования вашего продукта.
                 <br />
-                US Enterprise Expertise, Now for APAC
+                Опыт работы с крупными заказчиками — теперь для российского бизнеса.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 animate-on-scroll">
                 <a
                   href="#contact"
                   className="inline-flex items-center justify-center bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-gray-800 transition-all shadow-lg hover:shadow-xl group"
                 >
-                  Book a free call
+                  Заказать консультацию
                   <ArrowUpRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </a>
                 <button
                   onClick={goToCaseStudies}
                   className="inline-flex items-center justify-center border-2 border-gray-300 text-gray-900 px-6 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all"
                 >
-                  View case studies
+                  Смотреть кейсы
                 </button>
               </div>
             </div>
             <div className="lg:col-span-3 mt-3 animate-on-scroll">
-              <img src={profilePic} alt="Maria Guryanova, Design Director" className="w-full h-[300px] object-cover" />
+              <img src={profilePic} alt="Мария Гурьянова, дизайн-директор" className="w-full h-[300px] object-cover" />
             </div>
           </div>
         </div>
@@ -325,21 +325,19 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
-              <h2 className="text-sm font-semibold text-rose-600 uppercase tracking-wide mb-3 animate-on-scroll">About</h2>
+              <h2 className="text-sm font-semibold text-rose-600 uppercase tracking-wide mb-3 animate-on-scroll">Обо мне</h2>
               <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 animate-on-scroll">
-                13+ Years of Shipping Enterprise Products and Design Leadership
+                Более 13 лет опыта в разработке корпоративных продуктов и управлении дизайн‑командами
               </h3>
               <div className="space-y-4 text-gray-600 text-lg leading-relaxed animate-on-scroll">
                 <p>
-                  Enterprise-grade design systems and UX strategy — I help you scale your product and
-                  teams faster, with fewer iterations. No full-time commitment required.
+                  Корпоративные дизайн‑системы и UX‑стратегия — я помогаю масштабировать ваш продукт и команды быстрее, с меньшим количеством итераций. Без обязательств на полную ставку.
                 </p>
                 <p>
-                  After 10+ years of designing complex B2B systems for US enterprises, I'm now focusing
-                  on helping APAC startups and scale-ups build world-class design infrastructure that scales with them - design systems, component libraries, and the teams to manage it all.
+                  После 10+ лет проектирования сложных B2B‑систем для крупных зарубежных компаний, я теперь сосредоточена на поддержке российских стартапов и растущих бизнесов в создании дизайн‑инфраструктуры мирового уровня: дизайн‑систем, библиотек компонентов и команд, способных это управлять.
                 </p>
                 <p>
-                  I bridge the gap between design and engineering, mentoring teams to ship better products, faster. My approach is systematic, business driven and tailored to the unique challenges of fast growing APAC companies.
+                  Я соединяю дизайн и разработку, обучаю команды создавать лучшие продукты быстрее. Мой подход — системный, ориентированный на бизнес и адаптированный к уникальным вызовам быстрорастущих российских компаний.
                 </p>
               </div>
             </div>
@@ -347,17 +345,17 @@ function App() {
               <div className="bg-white rounded-2xl p-6 border border-gray-100">
                 <Boxes className="w-10 h-10 text-rose-600 mb-3" />
                 <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">3+</div>
-                <div className="text-gray-500 font-small">Design systems built</div>
+                <div className="text-gray-500 font-medium">Создано дизайн‑систем</div>
               </div>
               <div className="bg-white rounded-2xl p-6 border border-gray-100">
                 <Rocket className="w-10 h-10 text-rose-600 mb-3" />
                 <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">8</div>
-                <div className="text-gray-500 font-small">Products shipped</div>
+                <div className="text-gray-500 font-medium">Выпущено продуктов</div>
               </div>
               <div className="bg-white rounded-2xl p-6 border border-gray-100">
                 <UsersRound className="w-10 h-10 text-rose-600 mb-3" />
                 <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">5+</div>
-                <div className="text-gray-500 font-small">Led teams of this size</div>
+                <div className="text-gray-500 font-medium">Возглавляла команды такого размера</div>
               </div>
             </div>
           </div>
@@ -368,9 +366,9 @@ function App() {
       <section id="services" className="py-14 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-10">
-            <h2 className="text-sm font-semibold text-rose-600 uppercase tracking-wide mb-3 animate-on-scroll">Services</h2>
-            <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 animate-on-scroll">How I Can Help Your Business</h3>
-            <p className="text-gray-600 text-lg animate-on-scroll">Strategic design leadership tailored to your stage and needs</p>
+            <h2 className="text-sm font-semibold text-rose-600 uppercase tracking-wide mb-3 animate-on-scroll">Услуги</h2>
+            <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 animate-on-scroll">Как я могу помочь вашему бизнесу</h3>
+            <p className="text-gray-600 text-lg animate-on-scroll">Стратегическое дизайн‑лидерство под ваш этап и потребности</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -379,19 +377,18 @@ function App() {
               <div className="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center mb-5 group-hover:bg-rose-600 transition-colors">
                 <Layers className="w-7 h-7 text-rose-600 group-hover:text-white transition-colors" />
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">Design System as a Service</h4>
+              <h4 className="text-xl font-bold text-gray-900 mb-3">Дизайн‑система как сервис</h4>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Audit, build, and implement a scalable design system with code components. Establish
-                consistent design language across your product suite.
+                Аудит, создание и внедрение масштабируемой дизайн‑системы с кодом. Установите единый язык дизайна для всей линейки продуктов.
               </p>
               <div className="mt-auto">
-                <p className="text-sm font-semibold text-gray-900 mb-3">What you get</p>
+                <p className="text-sm font-semibold text-gray-900 mb-3">Что вы получаете</p>
                 <ul className="space-y-2">
                   {[
-                    'Full audit of your current UI and component usage',
-                    'Token-based design system in Figma + code components',
-                    'Documented usage guidelines for designers and engineers',
-                    'Onboarding sessions so your team can self-serve',
+                    'Полный аудит текущего UI и использования компонентов',
+                    'Токен‑ориентированная дизайн‑система в Figma + компоненты в коде',
+                    'Документированные гайдлайны для дизайнеров и разработчиков',
+                    'Сессии онбординга для самостоятельной работы команды',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
                       <Check className="w-4 h-4 text-rose-600 mt-0.5 flex-shrink-0" />
@@ -407,19 +404,18 @@ function App() {
               <div className="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center mb-5 group-hover:bg-rose-600 transition-colors">
                 <Users className="w-7 h-7 text-rose-600 group-hover:text-white transition-colors" />
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">Fractional Design Director</h4>
+              <h4 className="text-xl font-bold text-gray-900 mb-3">Внештатный дизайн‑директор</h4>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Enterprise-grade design leadership, available part-time. I step in as your design director - running design reviews, mentoring your team, shaping product design.
-                All for a fraction of a full-time cost.
+                Дизайн‑лидерство уровня enterprise на частичной занятости. Я вхожу в роль вашего дизайн‑директора — провожу дизайн‑ревью, менторю команду, формирую продуктовый дизайн. Все это за долю стоимости полной ставки.
               </p>
               <div className="mt-auto">
-                <p className="text-sm font-semibold text-gray-900 mb-3">What you get</p>
+                <p className="text-sm font-semibold text-gray-900 mb-3">Что вы получаете</p>
                 <ul className="space-y-2">
                   {[
-                    'Weekly design reviews and direction for your team',
-                    'Mentorship and growth plans for your designers',
-                    'Cross-functional alignment with product and engineering',
-                    'Hiring guidance and design process setup',
+                    'Еженедельные дизайн‑ревью и направление для команды',
+                    'Менторство и планы роста для дизайнеров',
+                    'Кросс-функциональное согласование с продуктом и разработкой',
+                    'Рекомендации по найму и настройка дизайн‑процессов',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
                       <Check className="w-4 h-4 text-rose-600 mt-0.5 flex-shrink-0" />
@@ -435,19 +431,18 @@ function App() {
               <div className="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center mb-5 group-hover:bg-rose-600 transition-colors">
                 <FileSearch className="w-7 h-7 text-rose-600 group-hover:text-white transition-colors" />
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">UX Audit & Roadmap</h4>
+              <h4 className="text-xl font-bold text-gray-900 mb-3">UX‑аудит и дорожная карта</h4>
               <p className="text-gray-600 leading-relaxed mb-6">
-                In-depth analysis of your B2B product. I deliver a prioritized roadmap and improve user satisfaction, reduce churn and increase conversion. You get a strategic plan.
-                Identify quick wins and long-term improvements.
+                Глубокий анализ вашего B2B‑продукта. Я предоставляю приоритизированную дорожную карту для повышения удовлетворённости пользователей, снижения оттока и роста конверсии. Вы получаете стратегический план с быстрыми победами и долгосрочными улучшениями.
               </p>
               <div className="mt-auto">
-                <p className="text-sm font-semibold text-gray-900 mb-3">What you get</p>
+                <p className="text-sm font-semibold text-gray-900 mb-3">Что вы получаете</p>
                 <ul className="space-y-2">
                   {[
-                    'Heuristic evaluation of key user flows',
-                    'Prioritized list of quick wins and long-term bets',
-                    'Actionable roadmap aligned to business goals',
-                    'Stakeholder readout with clear next steps',
+                    'Эвристическая оценка ключевых пользовательских сценариев',
+                    'Приоритизированный список быстрых побед и долгосрочных инициатив',
+                    'Дорожная карта, согласованная с бизнес‑целями',
+                    'Презентация для стейкхолдеров с чёткими следующими шагами',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
                       <Check className="w-4 h-4 text-rose-600 mt-0.5 flex-shrink-0" />
@@ -465,9 +460,9 @@ function App() {
       <section id="case-studies" className="py-14 lg:py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-10">
-            <h2 className="text-sm font-semibold text-rose-400 uppercase tracking-wide mb-3 animate-on-scroll">Case Studies</h2>
-            <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4 animate-on-scroll">Proven Results Across Industries</h3>
-            <p className="text-gray-300 text-lg animate-on-scroll">Selected projects from enterprise clients in fintech, biotech, and SaaS</p>
+            <h2 className="text-sm font-semibold text-rose-400 uppercase tracking-wide mb-3 animate-on-scroll">Кейсы</h2>
+            <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4 animate-on-scroll">Доказанные результаты в разных отраслях</h3>
+            <p className="text-gray-300 text-lg animate-on-scroll">Избранные проекты для клиентов из финтеха, биотеха и SaaS</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -486,11 +481,11 @@ function App() {
                   <p className="text-sm text-gray-400 mb-3">{study.location}</p>
                   <div className="space-y-3 text-sm flex-1">
                     <div>
-                      <span className="text-gray-400 font-medium">Challenge:</span>
+                      <span className="text-gray-400 font-medium">Задача:</span>
                       <p className="text-gray-300 mt-1">{study.challenge}</p>
                     </div>
                     <div>
-                      <span className="text-gray-400 font-medium">Result:</span>
+                      <span className="text-gray-400 font-medium">Результат:</span>
                       <p className="text-gray-300 mt-1">{study.result}</p>
                     </div>
                   </div>
@@ -498,7 +493,7 @@ function App() {
                     onClick={goToCaseStudies}
                     className="inline-flex items-center text-rose-600 font-semibold hover:text-rose-700 transition-colors group/link mt-4"
                   >
-                    Learn more
+                    Подробнее
                     <ChevronRight className="w-4 h-4 ml-1 group-hover/link:translate-x-1 transition-transform" />
                   </button>
                 </div>
@@ -514,11 +509,10 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
             {/* Contact Info */}
             <div className="animate-on-scroll">
-              <h2 className="text-sm font-semibold text-rose-400 uppercase tracking-wide mb-3">Contact</h2>
-              <p className="text-gray-300 text-lg leading-relaxed mb-8">Available for UTC +8</p>
+              <h2 className="text-sm font-semibold text-rose-400 uppercase tracking-wide mb-3">Контакты</h2>
+              <p className="text-gray-300 text-lg leading-relaxed mb-8">Доступна для встреч в часовом поясе UTC+3 (Москва)</p>
               <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                Ready to elevate your product's design? Book a free discovery call
-                to discuss your challenges and see if we're a good fit.
+                Готовы вывести дизайн вашего продукта на новый уровень? Закажите бесплатную консультацию, чтобы обсудить ваши задачи и понять, подходим ли мы друг другу.
               </p>
 
               <div className="space-y-4">
@@ -529,12 +523,12 @@ function App() {
                   className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
                 >
                   <Linkedin className="w-5 h-5 text-rose-400" />
-                  <span>Connect on LinkedIn</span>
+                  <span>Связаться в LinkedIn</span>
                 </a>
               </div>
 
               <div className="mt-10 pt-8 border-t border-gray-700">
-                <p className="text-sm text-gray-400">Serving startups and scale-ups across APAC.</p>
+                <p className="text-sm text-gray-400">Работаю со стартапами и растущими компаниями по всей России.</p>
               </div>
             </div>
 
@@ -543,13 +537,13 @@ function App() {
               {isSubmitted ? (
                 <div className="flex flex-col items-center justify-center py-12 text-center">
                   <CheckCircle className="w-16 h-16 text-rose-400 mb-4" />
-                  <h4 className="text-xl font-semibold text-white mb-2">Message Sent!</h4>
-                  <p className="text-gray-300">I'll get back to you within 24-48 hours.</p>
+                  <h4 className="text-xl font-semibold text-white mb-2">Сообщение отправлено!</h4>
+                  <p className="text-gray-300">Я свяжусь с вами в течение 24–48 часов.</p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Имя</label>
                     <input
                       type="text"
                       id="name"
@@ -557,7 +551,7 @@ function App() {
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full px-4 py-3 bg-gray-900/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-rose-500 focus:ring-1 focus:ring-rose-500 transition-colors"
-                      placeholder="Your name"
+                      placeholder="Ваше имя"
                     />
                   </div>
                   <div>
@@ -569,11 +563,11 @@ function App() {
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-4 py-3 bg-gray-900/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-rose-500 focus:ring-1 focus:ring-rose-500 transition-colors"
-                      placeholder="your@email.com"
+                      placeholder="Ваш email"
                     />
                   </div>
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Сообщение</label>
                     <textarea
                       id="message"
                       required
@@ -581,14 +575,14 @@ function App() {
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full px-4 py-3 bg-gray-900/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-rose-500 focus:ring-1 focus:ring-rose-500 transition-colors resize-none"
-                      placeholder="Tell me about your project..."
+                      placeholder="Расскажите о вашем проекте..."
                     />
                   </div>
                   <button
                     type="submit"
                     className="w-full bg-rose-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-rose-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
                   >
-                    Book a free call
+                    Заказать консультацию
                     <ArrowUpRight className="w-5 h-5" />
                   </button>
                 </form>
@@ -597,7 +591,7 @@ function App() {
           </div>
 
           <div className="mt-10 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
-            <p>&copy; 2026 Maria Guryanova DesignDirector. All rights reserved.</p>
+            <p>&copy; 2026 Мария Гурьянова — Дизайн-директор. Все права защищены.</p>
           </div>
         </div>
       </footer>
@@ -613,15 +607,15 @@ function CaseStudiesPage({ onBack }: { onBack: () => void }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             <button onClick={onBack} className="text-left text-xl font-bold text-white">
-              Maria Guryanova
-              <span className="block text-rose-500 text-sm font-small">Design Director</span>
+              Мария Гурьянова
+              <span className="block text-rose-500 text-sm font-normal">Дизайн‑директор</span>
             </button>
             <button
               onClick={onBack}
               className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors font-medium group"
             >
               <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-              Back to home
+              Назад на главную
             </button>
           </div>
         </div>
@@ -630,11 +624,10 @@ function CaseStudiesPage({ onBack }: { onBack: () => void }) {
       {/* Header */}
       <section className="hero-gradient pt-28 pb-12 lg:pt-32 lg:pb-16">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
-          <p className="text-rose-400 font-semibold tracking-wide uppercase mb-2 animate-on-scroll">Case Studies</p>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 animate-on-scroll">Proven Results Across Industries</h1>
+          <p className="text-rose-400 font-semibold tracking-wide uppercase mb-2 animate-on-scroll">Кейсы</p>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 animate-on-scroll">Доказанные результаты в разных отраслях</h1>
           <p className="text-xl text-gray-300 max-w-3xl animate-on-scroll">
-            Selected projects from enterprise clients in fintech, biotech, and SaaS — with the
-            challenge, approach, and measurable outcomes for each.
+            Избранные проекты для клиентов из финтеха, биотеха и SaaS — с описанием задачи, подхода и измеримых результатов.
           </p>
         </div>
       </section>
@@ -660,30 +653,30 @@ function CaseStudiesPage({ onBack }: { onBack: () => void }) {
 
                 <div className="grid sm:grid-cols-3 gap-4 mb-8">
                   <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-                    <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Scope</p>
+                    <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Объём</p>
                     <p className="text-sm font-medium text-gray-900">{study.details.scope}</p>
                   </div>
                   <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-                    <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Duration</p>
+                    <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Длительность</p>
                     <p className="text-sm font-medium text-gray-900">{study.details.duration}</p>
                   </div>
                   <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-                    <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Team</p>
+                    <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Команда</p>
                     <p className="text-sm font-medium text-gray-900">{study.details.team}</p>
                   </div>
                 </div>
 
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Challenge</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Задача</h3>
                     <p className="text-gray-600 leading-relaxed">{study.challenge}</p>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Approach</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Подход</h3>
                     <p className="text-gray-600 leading-relaxed">{study.approach}</p>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Result</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Результат</h3>
                     <p className="text-gray-600 leading-relaxed mb-4">{study.result}</p>
                     <ul className="space-y-2">
                       {study.details.outcomes.map((outcome) => (
@@ -704,13 +697,13 @@ function CaseStudiesPage({ onBack }: { onBack: () => void }) {
       {/* CTA */}
       <section className="py-14 lg:py-20 bg-gray-900">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 animate-on-scroll">Want results like these?</h2>
-          <p className="text-gray-300 text-lg mb-8 animate-on-scroll">Book a free discovery call to discuss your product and how we'd work together.</p>
+          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 animate-on-scroll">Хотите такие же результаты?</h2>
+          <p className="text-gray-300 text-lg mb-8 animate-on-scroll">Закажите бесплатную консультацию, чтобы обсудить ваш продукт и возможные форматы сотрудничества.</p>
           <button
             onClick={onBack}
             className="inline-flex items-center justify-center bg-rose-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-rose-700 transition-all shadow-lg hover:shadow-xl group"
           >
-            Get in Touch
+            Связаться
             <ArrowUpRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </button>
         </div>
