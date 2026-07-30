@@ -76,8 +76,8 @@ const caseStudies: CaseStudy[] = [
     result:
       'The startup now has a light, clear, and systematic design that scales. Both user roles get role-tailored dashboards, and the team can ship new features against a stable design foundation.',
     details: {
-      scope: 'Product UX/UI from scratch + design language',
-      duration: '9 months',
+      scope: 'Разработка UX/UI продукта с нуля и создание дизайн-языка',
+      duration: '14 месяцев',
       team: '3 designers, 4 engineers',
       outcomes: [
         'Role-based dashboards for researchers and clinicians',
