@@ -44,23 +44,22 @@ const caseStudies: CaseStudy[] = [
     id: 'nsd',
     industry: 'Fintech',
     icon: 'briefcase',
-    title: 'National State Depositary',
-    location: 'Russia',
-    challenge:
-      'Create a new product UI and UX for a state depositary platform. The legacy UI could not scale, looked outdated, and forced operators to jump across five disconnected systems to complete a single workflow.',
-    approach:
-      'Built a modular design system with real-time data visualization components. Unified five legacy systems into a single UX system with a shared component library, consistent interaction patterns, and a scalable token architecture. Ran collaborative design-engineering workshops to align stakeholders on the target architecture.',
-    result:
-      '60% reduction in UI bugs, a new umbrella design system, strong scalability, and a light, top-notch UI. Operators now complete core workflows in one system instead of five.',
+    title: 'Национальный Расмчетный Депозитарий',
+    location: 'Москва',
+    Задача:
+      'Создать новый пользовательский интерфейс (UI) и пользовательский опыт (UX) для платформы государственного депозитария. Устаревший интерфейс не позволял масштабироваться, выглядел устаревшим и вынуждал операторов переключаться между пятью разрозненными системами для выполнения даже одной рабочей задачи..',
+    Подход:
+      'Разработала модульную дизайн-систему с компонентами для визуализации данных в реальном времени. Объединила пять устаревших систем в единую UX-среду с общей библиотекой компонентов, единообразными паттернами взаимодействия и масштабируемой токен-архитектурой. Провела совместные воркшопы с дизайнерами и разработчиками для согласования целевой архитектуры со стейкхолдерами..',
+    Результат:
+      'Новая зонтичная дизайн-система, высокая масштабируемость, создание единого стиля для пяти программных продуктов.',
     details: {
-      scope: 'End-to-end product UX/UI redesign + design system',
-      duration: '14 months',
-      team: '5 designers, 3 frontend engineers',
+      работы: 'Полный цикл редизайна UX/UI продукта + дизайн-система',
+      продолжительность: '48 месяцев',
+      команда: '1 дизайн-лид, 3 дизайнера, 3 фронтенд-инженера',
       outcomes: [
-        '60% reduction in UI-related defects',
-        '5 legacy systems unified into 1 UX system',
-        'Reusable component library adopted across product suite',
-        'Faster onboarding for new operators',
+        'Пять устаревших систем объединены в единую UX-систему',
+        'Библиотека переиспользуемых компонентов, внедрённая во всей линейке продуктов',
+        'Онбординг новых операторов стал быстрее',
       ],
     },
   },
@@ -69,7 +68,7 @@ const caseStudies: CaseStudy[] = [
     industry: 'Biotech',
     icon: 'target',
     title: 'BostonGene',
-    location: 'United States',
+    location: 'Москва',
     challenge:
       'Design the product UI and UX from scratch for a biotech startup. The platform needed to present complex genomic and clinical data to two very different user roles without overwhelming either.',
     approach:
