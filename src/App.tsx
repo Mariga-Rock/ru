@@ -223,7 +223,7 @@ function App() {
                 Services
               </button>
               <button onClick={goToCaseStudies} className="text-gray-300 hover:text-white transition-colors font-medium">
-                Case Studies
+                Кейсы
               </button>
               <button onClick={handleContactClick} className="text-gray-300 hover:text-white transition-colors font-medium">
                 Contact
